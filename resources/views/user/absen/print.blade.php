@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lembar Daftar Kehadiran Jurnal Magang</title>
+    <title>Lembar Daftar Kehadiran Jurnal PKL</title>
     <style>
         @page {
             size: A4;
@@ -88,12 +88,12 @@
 
 <body>
     <div class="header">
-        <div class="school-name">SMK Islamic Centre Baiturrahman</div>
+        <div class="school-name">Aplikasi Jurnal Magang</div>
         <div class="ornament"> <button onclick="window.print()">🖨️ Cetak Halaman</button></div>
     </div>
 
     <div class="headline">
-        PRESENSI KEHADIRAN SISWA PKL DI {{ Str::upper($user->internship->dudika ?? 'Belum Terdaftar') }}
+        PRESENSI KEHADIRAN SISWA MAGANG DI {{ Str::upper($user->internship->dudika ?? 'Belum Terdaftar') }}
     </div>
 
     <div class="name-card">
@@ -104,7 +104,7 @@
         <table>
             <thead>
                 <tr>
-                    <th rowspan="2">Nomor</th>
+                    <th rowspan="2">No</th>
                     <th rowspan="2">Hari Tanggal</th>
                     <th colspan="2">Jam Kerja</th>
                     <th rowspan="2">Ket Tidak Hadir</th>

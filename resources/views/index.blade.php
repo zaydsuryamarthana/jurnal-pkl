@@ -63,7 +63,7 @@
                                 <i class="bi bi-database-fill-lock"></i>
                             </div>
                             <h2 class="fs-4 fw-bold">Terjamin Aman</h2>
-                            <p class="mb-0">Memiliki berbagai macam fitur laporan untuk memudahkan user</p>
+                            <p class="mb-0">Data terlindungi dari akses yang tidak sah </p>
                         </div>
                     </div>
                 </div>

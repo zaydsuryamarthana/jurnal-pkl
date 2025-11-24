@@ -101,24 +101,24 @@ npm run dev
 
 Untuk meningkatkan skalabilitas, performa, dan pengalaman pengguna (User Experience) ke tingkat selanjutnya, pengembangan aplikasi ini direncanakan akan beralih dari arsitektur *Monolith* (Blade) menuju arsitektur *Headless* (API Driven). Berikut adalah rencana jangka panjang kami:
 
-### 🏗️ Fase 1: Transformasi Backend ke RESTful API
+### Fase 1: Transformasi Backend ke RESTful API
 Fokus pada pemisahan logika bisnis dari tampilan agar backend dapat digunakan oleh berbagai platform (Web & Mobile).
 * **API Development:** Membangun endpoint REST API menggunakan Laravel Resources & Controllers.
 * **API Authentication:** Migrasi sistem login ke **Laravel Sanctum** (Token-based) untuk keamanan akses stateless.
 
-### 🎨 Fase 2: Modernisasi UI/UX
+### Fase 2: Modernisasi UI/UX
 Merombak total antarmuka pengguna untuk pengalaman yang lebih responsif, modern, dan *app-like*.
 * **Single Page Application (SPA):** Membangun ulang Frontend menggunakan teknologi modern (seperti **Next.js / React / Vue.js**) untuk navigasi instan tanpa reload halaman.
 * **Interactive UI Components:** Implementasi Skeleton Loading, SweetAlert, dan Real-time Form Validation untuk feedback yang lebih baik kepada user.
 * **State Management:** Pengelolaan data lokal yang lebih efisien untuk mengurangi request berulang ke server.
 
-### ⚡ Fase 3: Optimasi Performa & Skalabilitas
+### Fase 3: Optimasi Performa & Skalabilitas
 Memastikan aplikasi tetap cepat meski data siswa dan laporan semakin banyak.
 
 * **Image Optimization:** Kompresi otomatis saat siswa mengupload bukti kegiatan atau laporan.
 * **Asynchronous Processing:** Menggunakan **Laravel Queue** untuk proses berat (seperti pengiriman email OTP atau rekap laporan PDF) agar tidak membebani loading user.
 
-### 📱 Fase 4: Ekosistem Multi-Platform
+### Fase 4: Ekosistem Multi-Platform
 Memanfaatkan API yang sudah dibangun untuk memperluas jangkauan akses.
 * **Mobile Application:** Pengembangan aplikasi native (Android/iOS) menggunakan React Native atau Flutter yang terhubung ke API Jurnal PKL.
 

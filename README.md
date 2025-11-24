@@ -50,7 +50,7 @@ cp .env.example .env
 ```
 Buka file .env menggunakan teks editor (VS Code / Notepad), lalu sesuaikan konfigurasi berikut:
 
-```toml
+```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -59,7 +59,7 @@ DB_USERNAME=root           <-- Sesuaikan username (default: root)
 DB_PASSWORD=               <-- Sesuaikan password (default: kosong)
 ```
 
-```toml
+```bash
 MAIL_MAILER=smtp
 MAIL_HOST=sandbox.smtp.mailtrap.io
 MAIL_PORT=2525

@@ -3,9 +3,9 @@
 
 ### Fitur Utama
 * **Role Management:** Tersedia role **Siswa** dan **Admin (Guru Pendamping)**.
-* **Verifikasi Berkas:** Upload dan validasi surat pernyataan/syarat magang.
-* **Jurnal Harian:** Input kegiatan harian siswa dengan status persetujuan (Terima/Tolak) oleh Guru.
-* **Laporan Akhir:** Pengajuan laporan akhir setelah periode magang selesai (hanya jika laporan harian lengkap).
+* **Verifikasi Berkas:** Upload dan validasi surat pernyataan/syarat PKL.
+* **Jurnal Harian:** Input kegiatan harian siswa dengan status persetujua oleh Guru.
+* **Laporan Akhir:** Pengajuan laporan akhir setelah PKL dilaksanakan.
 * **OTP Verifikasi:** Keamanan pendaftaran akun menggunakan Email OTP.
 
 ---
